@@ -1,0 +1,64 @@
+.name{
+    width: 500px;
+    height:500px;
+    border:50px solid rgb(4, 0, 250);
+    margin: auto;
+    border-radius: 50px;
+    margin-top: 400px;
+    margin-left:800px;
+    animation: name1 10s linear infinite;
+    box-shadow: 0px 0px  100px blue;
+    background-color: aqua;
+
+}
+/* .class{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    box-shadow: 0px 0px 50px rgb(55, 0, 255);
+} */
+
+@keyframes name1 {
+    0%{
+        border-left-color: rgb(16, 0, 240) ;
+        box-shadow: -50px -0px  0px blue,
+        -50px -0px  0px blue inset  ;
+    
+  
+
+    }
+
+    25%{
+        border-top-color: blue ;
+        box-shadow:  -0px -180px 0px blue,-0px -180px 50px blue inset;
+        background-color: rgb(255, 0, 234);
+        /* margin-left:0px; */
+
+    }
+    50%{
+        border-right-color: blue ;
+        box-shadow: 180px -0px  50px blue,180px -0px  0px blue inset;
+        /* margin-left:300px;/ */
+       background-color: rgb(0, 255, 0);
+
+    }
+    75%{
+        border-bottom-color: blue ;
+        box-shadow: -0px 180px  0px blue , -0px 180px  50px blue inset;
+        /* margin-left:200px; */
+       background-color: rgb(251, 255, 0);
+
+
+    }
+    100%{
+        border-left-color: rgb(16, 0, 240) ;
+        box-shadow: -180px -0px  0px blue,
+        -180px -0px  50px blue inset  ;
+       background-color: rgb(255, 0, 0);
+
+        /* margin-left:0px; */
+
+        
+    }
+}
+
